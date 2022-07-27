@@ -18,7 +18,7 @@ body {
 }
 
 *:focus {
-  outline: 3px solid #ff7500;
+  outline: 2px dotted #ff7500;
   outline-offset: 3px;
 }
 
@@ -30,4 +30,77 @@ body {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+/* SITE-HEADER */
+.site-header {
+  border-top: 5px solid #ff7500;
+}
+.site-header-container {
+  display: flex;
+  align-items: center;
+}
+.site-logo {
+  margin-right: auto;
+}
+.site-logo-img {
+  display: block;
+  width: 224px;
+  height: 60px;
+}
+.sitenav {
+  margin-right: 32px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 16px;
+}
+.sitenav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sitenav-item {
+}
+
+.sitenav-item:not(:last-child) {
+  margin-right: 32px;
+}
+.sitenav-link {
+  display: block;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
+}
+
+.sitenav-link:hover {
+  color: #ff7500;
+}
+
+.main-link {
+  padding: 12px 24px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  border-radius: 4px;
+  line-height: 15px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  background-color: #ff7500;
+  color: #fff;
+}
+
+.main-link:hover {
+  opacity: 0.8;
+}
+
+.main-link:active {
+  opacity: 0.6;
 }
