@@ -38,6 +38,8 @@ body {
   border-top: 5px solid #ff7500;
 }
 .site-header-container {
+  margin-top: 16px;
+  margin-bottom: 16px;
   display: flex;
   align-items: center;
 }
@@ -103,4 +105,86 @@ body {
 
 .main-link:active {
   opacity: 0.6;
+}
+
+
+/* HERO */
+.site-hero {
+  background-color: #252420;
+  color: #fff;
+}
+
+.hero-line {
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 80px;
+  height: 3px;
+  border: none;
+  background-color: #ff7500;
+}
+
+.site-hero-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.site-hero-content {
+  margin-top: 0;
+  width: 387px;
+}
+
+.site-hero-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+}
+
+.site-hero-text {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.site-hero-link {
+  display: inline-block;
+  padding: 12px 24px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  border-radius: 4px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  background-color: #ff7500;
+  color: #fff;
+}
+
+.site-hero-link:hover {
+  opacity: 0.8;
+}
+
+.site-hero-link:active {
+  opacity: 0.6;
+}
+
+.site-hero-img {
+  width: 510px;
+  height: 510px;
+  border-radius: 8px;
+  box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
 }
