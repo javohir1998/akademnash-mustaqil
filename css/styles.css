@@ -22,6 +22,14 @@ body {
   outline-offset: 3px;
 }
 
+.site-link:hover {
+  opacity: 0.8;
+}
+
+.site-link:active {
+  opacity: 0.6;
+}
+
 /* CONTAINER */
 .container {
   width: 100%;
@@ -160,7 +168,7 @@ body {
   color: #fff;
 }
 
-.site-hero-link {
+.site-link {
   display: inline-block;
   padding: 12px 24px;
   font-family: "Roboto", "Arial", sans-serif;
@@ -253,5 +261,52 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
-  color: #000000;
+  color: #000;
+}
+
+
+/* PROMO */
+.promo {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 160px;
+}
+.promo-container {
+  display: flex;
+  padding: 64px;
+  border-radius: 12px;
+  background-color: #252420;
+  color: #fff;
+}
+
+.promo-content {
+  width: 440px;
+  margin-right: 92px;
+}
+.promo-title {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0
+}
+.promo-text {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5
+}
+.promo-feature {
+  font-weight: bold;
+  color: #ff7500;
+}
+.site-link {
+}
+.promo-img {
+  width: 440px;
+  height: 440px;
+  border-radius: 12px;
 }
